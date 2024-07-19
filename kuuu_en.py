@@ -1,5 +1,8 @@
 from openai import OpenAI
-client = OpenAI()
+import os
+import openai
+openai.api_key = os.getenv("your_api_key")
+
 '''
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
