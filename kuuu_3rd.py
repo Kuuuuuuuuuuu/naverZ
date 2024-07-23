@@ -189,5 +189,22 @@ def print_with_indentation(text):
     else:
         print("Input object does not have a 'content' attribute of type string")
 
+#print_with_indentation(completion.choices[0].message)
+
+
+class ChatCompletionMessage:
+    def __init__(self, content):
+        self.content = content
+
+def print_with_indentation(text):
+    if hasattr(text, 'content') and isinstance(text.content, str):
+        lines = text.content.split('\n')
+        indent = ''  # 들여쓰기 한 단위
+        for line in lines:
+            print(indent + line)
+    else:
+        print("Input object does not have a 'content' attribute of type string")
+
 print_with_indentation(completion.choices[0].message)
+
 
