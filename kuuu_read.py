@@ -44,5 +44,5 @@ print(result)
 '''
 
 # 결과를 CSV 파일로 저장
-result_file_path = "C:/Users/USER/Downloads/filtered_data_Revealing of PII.csv"
+result_file_path = "C:/Users/USER/Downloads/filtered_dataThreats of violence (non-PC, Tier 1).csv"
 result.to_csv(result_file_path, index=True, encoding='utf-8')
