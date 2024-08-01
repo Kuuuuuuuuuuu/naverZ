@@ -6,7 +6,7 @@ BASE_URL = 'https://gall.dcinside.com/board/lists/'
 
 para = {'id' : 'iamsolo',}
 
-header = {"User-Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'}
+header = {"User-Agent":'}
 
 resp = requests.get(BASE_URL, params=para, headers=header)
 
