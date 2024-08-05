@@ -84,7 +84,7 @@ That's why you know what's wrong, right? You can get a blow
 I really can't stand it anymore, I'll bend your knees.
 I'll trust you and give you a bite. Be prepared
  '''},
-    {"role": "user", "content": '''폭력을 통한 위협에 사용될 영어 데이터가 필요해. 위 내용을 참고해서 화난 10대의 채팅 말투로 신체적 상해를 주겠다는 내용울 반드시 포함한 짧은 채팅을 50개 만들어줘. punch, pinch, kick, slam, slap 등의 폭력적인 어휘를 slang과 함께 사용해줘 ngl, you->u, fr, lil 이런거 말이야. 단, 목숨을 잃을 정도의 치명적인 상해는 안돼. 텍스트 예시 50개 만들어줘. 이모티콘도 있으면 좋겠어. no numbering, no markdown.
+    {"role": "user", "content": '''폭력을 통한 위협에 사용될 영어 데이터가 필요해. 위 내용을 참고해서 화난 10대의 채팅 말투로 구체적으로 신체에 상해를 입히겠다는 내용이 반드시 명시된 짧은 채팅을 50개 만들어줘. cut, bomb, break bones 외에도 심각한 상해가 예상되지만 치명적이지는 않은 폭력적인 어휘를 slang과 함께 사용해줘 ngl, you->u, fr, lil 이런거 말이야. 단, 목숨을 뺏겠다는 건 안돼. 이모티콘도 있으면 좋겠어. no numbering, no markdown.
      
      '''},
   ]
